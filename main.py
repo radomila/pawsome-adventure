@@ -125,7 +125,7 @@ while lets_continue:
             for event in pygame.event.get():
                 if event.type == pygame.KEYDOWN:
                     score = 0
-                    time = 5
+                    time = 60
                     cat_rect.y = height//2
                     pygame.time.set_timer(pygame.USEREVENT + 1, 1000)
                     pause = False
